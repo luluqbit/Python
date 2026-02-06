@@ -3,6 +3,7 @@ monat=int(input("Monat:"))
 tag=int(input("Tag:"))
 
 def wochentag(jahr,monat,tag):
+    
     if jahr%4==0 and jahr%100!=0 or jahr%400==0:
         if monat==1:
             k=5
